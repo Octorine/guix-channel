@@ -1,6 +1,7 @@
 (define-module (octorine guix rust-countdown)
   #:use-module (guix packages)
   #:use-module (gnu packages crates-io)
+  #:use-module (gnu packages crates-check)
   #:use-module (gnu packages gnu-doc)
   #:use-module (guix download)
   #:use-module (guix build utils)
